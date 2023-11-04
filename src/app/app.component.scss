@@ -1,0 +1,33 @@
+section {
+  margin: auto;
+  display: grid;
+  justify-content: center;
+  margin-top: 15%;
+}
+
+button {
+  width: 200px;
+  height: 200px;
+}
+
+.deleted {
+  background-color: red;
+}
+
+.checked {
+  background-color: green;
+}
+
+.desativado {
+  color: red;
+}
+
+.ativado {
+  color: green;
+}
+
+.marginTop {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 2rem;
+}

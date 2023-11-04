@@ -1,27 +1,38 @@
-# AlternarBotaoAngular
+# Alternando Estado Botão
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
+Esse é um projetinho simples.
 
-## Development server
+O objetivo da aplicação desenvolvido em `Angular2+` é alternar corretamente o botão entre um estado DESLIGADO e um estado LIGADO. Quando o botão está ativado e clicado, ele é desligado e o texto dentro do card muda de Power Off para Connected e vice-versa.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Nesse projetinho também usei o `@angular/material` para controler os icones, formato do botão e para implementar o card.
 
-## Code scaffolding
+Para instalar o material é `ng add @angular/material` e importar os modulos que deseja usar no `app.module.ts`.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```json
+Angular CLI: 16.2.7
+Node: 18.16.0
+Package Manager: npm 9.5.1
+```
 
-## Build
+## Codigo JavaScript
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+```javascript
+// declaração da variavel de controle com sua tipagem
+  buttonState: boolean = true;
 
-## Running unit tests
+// cria função toggleState que é usada para alternar o estado de algum botão
+  toggleState() {
+    // linha que inverte o valor da propriedade `buttonState`.
+    // Se `buttonState` estiver `true`, ele se torna `false`, e vice-versa
+    this.buttonState = !this.buttonState;
+  }
+```
+# DESLIGADO
+<img src="./src/assets/IMG/1.png" width="100%">
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+# LIGADO
+<img src="./src/assets/IMG/2.png" width="100%">
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<h1 align="center">💻 Desenvolvido Por: Gilberto Júnior</h1>
