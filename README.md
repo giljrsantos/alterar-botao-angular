@@ -28,10 +28,10 @@ Package Manager: npm 9.5.1
   }
 ```
 # DESLIGADO
-<img src="./src/assets/IMG/1.png" width="100%">
+<img src="https://github.com/giljrsantos/alterar-botao-angular/blob/master/src/assets/img/1.png" width="100%">
 
 # LIGADO
-<img src="./src/assets/IMG/2.png" width="100%">
+<img src="https://github.com/giljrsantos/alterar-botao-angular/blob/master/src/assets/img/2.png" width="100%">
 
 
 
