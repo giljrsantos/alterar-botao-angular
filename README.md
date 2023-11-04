@@ -2,7 +2,7 @@
 
 O objetivo da aplicação desenvolvido em `Angular2+` é alternar corretamente o botão entre um estado DESLIGADO e um estado LIGADO. Quando o botão está Desligado e clicado, ele é Ligado e o texto dentro do card muda de Power Off para Connected e vice-versa.
 
-Também usei o `@angular/material` para controler os icones, formato do botão e para implementar o card.
+Também usei o `@angular/material` para controlar os icones, formato do botão e para implementar o card.
 
 Para instalar o material é `ng add @angular/material` e importar os modulos que deseja usar no `app.module.ts`.
 
